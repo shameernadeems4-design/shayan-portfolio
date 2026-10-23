@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Garment branding mockups showing woven label and neck print">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#151516"/>
+      <stop offset="1" stop-color="#0a0a0b"/>
+    </linearGradient>
+    <linearGradient id="tee" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8e3d9"/>
+      <stop offset="1" stop-color="#cfc9bd"/>
+    </linearGradient>
+    <linearGradient id="teeB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2a2c"/>
+      <stop offset="1" stop-color="#191919"/>
+    </linearGradient>
+    <filter id="sh" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="24" stdDeviation="26" flood-color="#000000" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#bg)"/>
+
+  <!-- light tee -->
+  <g filter="url(#sh)">
+    <path d="M180 190 L280 140 L340 190 L660 190 L720 140 L820 190 L820 250 L740 250 L740 720 L260 720 L260 250 L180 250 Z" fill="url(#tee)"/>
+    <path d="M340 190 Q500 268 660 190" fill="none" stroke="#101012" stroke-opacity="0.25" stroke-width="3"/>
+    <rect x="440" y="300" width="140" height="46" fill="#101012"/>
+    <text x="510" y="331" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="17" letter-spacing="4" fill="#e8e3d9">ATLAS</text>
+    <g transform="translate(510 430)">
+      <rect x="-84" y="-28" width="168" height="56" fill="#101012"/>
+      <rect x="-84" y="-28" width="168" height="56" fill="none" stroke="#d8452e" stroke-width="1"/>
+      <text x="0" y="7" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="14" letter-spacing="4" fill="#e8e3d9">WOVEN LABEL</text>
+    </g>
+  </g>
+
+  <!-- dark tee -->
+  <g filter="url(#sh)">
+    <path d="M700 250 L800 200 L860 250 L1130 250 L1130 310 L1070 310 L1070 730 L760 730 L760 310 L700 310 Z" fill="url(#teeB)"/>
+    <path d="M860 250 Q965 322 1070 250" fill="none" stroke="#e8e3d9" stroke-opacity="0.2" stroke-width="3"/>
+    <rect x="880" y="380" width="96" height="96" rx="4" fill="#d8452e"/>
+    <text x="928" y="440" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="30" fill="#101012">A</text>
+    <text x="928" y="530" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="5" fill="#8a8a86">RUBBERISED CHEST</text>
+    <text x="928" y="620" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="4" fill="#6f6f6c">HEAT TRANSFER · 80MM</text>
+  </g>
+
+  <text x="110" y="150" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="5" fill="#8f8b83">PRINT STUDY — GARMENT BRANDING</text>
+  <text x="1090" y="150" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="5" fill="#d8452e">11</text>
+  <text x="110" y="838" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#f4f1ea">One mark, three production methods</text>
+</svg>

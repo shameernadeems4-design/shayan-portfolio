@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Logo presentation for Halo and Co, a luxury monogram identity">
+  <defs>
+    <g id="mark">
+      <circle r="100" fill="none" stroke="#b1822c" stroke-width="2.5"/>
+      <circle r="84" fill="none" stroke="#b1822c" stroke-width="1" stroke-opacity="0.4"/>
+      <text y="42" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="120" fill="#0f0f10">H</text>
+    </g>
+  </defs>
+  <rect width="1200" height="900" fill="#f5f2ea"/>
+  <rect x="28" y="28" width="1144" height="844" fill="none" stroke="#0a0a0b" stroke-opacity="0.08"/>
+  <text x="64" y="78" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="6" fill="#6d6a63">LOGO PRESENTATION</text>
+  <text x="1136" y="78" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="4" fill="#b1822c">MONOGRAM &#183; LUXURY</text>
+  <rect x="64" y="112" width="1072" height="500" fill="#efeade"/>
+  <rect x="64" y="112" width="1072" height="500" fill="none" stroke="#0a0a0b" stroke-opacity="0.06"/>
+  <g transform="translate(600,300) scale(0.95)"><use href="#mark"/></g>
+  <text x="600" y="556" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="40" letter-spacing="10" fill="#0f0f10">HALO &amp; CO</text>
+  <line x1="64" y1="648" x2="1136" y2="648" stroke="#0a0a0b" stroke-opacity="0.1"/>
+  <line x1="421" y1="648" x2="421" y2="860" stroke="#0a0a0b" stroke-opacity="0.1"/>
+  <line x1="779" y1="648" x2="779" y2="860" stroke="#0a0a0b" stroke-opacity="0.1"/>
+  <text x="242" y="700" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="5" fill="#6d6a63">MONOGRAM</text>
+  <text x="600" y="700" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="5" fill="#6d6a63">INVERSE</text>
+  <text x="957" y="700" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="5" fill="#6d6a63">WORDMARK</text>
+  <g transform="translate(242,795) scale(0.34)"><use href="#mark"/></g>
+  <rect x="505" y="748" width="190" height="96" rx="6" fill="#b1822c"/>
+  <text x="600" y="808" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" letter-spacing="4" fill="#f5f2ea">HALO</text>
+  <text x="957" y="812" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" letter-spacing="5" fill="#0f0f10">HALO &amp; CO</text>
+</svg>

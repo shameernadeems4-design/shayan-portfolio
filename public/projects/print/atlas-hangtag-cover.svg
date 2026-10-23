@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Clothing hangtag mockup in cream with spot gold">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#efeade"/>
+      <stop offset="1" stop-color="#dcd4c4"/>
+    </linearGradient>
+    <linearGradient id="tag" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf8f2"/>
+      <stop offset="1" stop-color="#eee8db"/>
+    </linearGradient>
+    <filter id="sh" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#3a3222" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect x="0" y="640" width="1200" height="260" fill="#101012" opacity="0.94"/>
+
+  <!-- front tag -->
+  <g filter="url(#sh)" transform="rotate(-9 420 420)">
+    <path d="M300 180 L540 180 L540 640 L300 640 Z" fill="url(#tag)"/>
+    <path d="M300 180 L540 180 L540 640 L300 640 Z" fill="none" stroke="#101012" stroke-opacity="0.14"/>
+    <circle cx="420" cy="228" r="11" fill="none" stroke="#101012" stroke-opacity="0.6" stroke-width="1.5"/>
+    <line x1="318" y1="286" x2="522" y2="286" stroke="#b1822c" stroke-width="1.4"/>
+    <line x1="318" y1="586" x2="522" y2="586" stroke="#b1822c" stroke-width="1.4"/>
+    <text x="420" y="392" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="46" letter-spacing="2" fill="#101012">ATLAS</text>
+    <text x="420" y="424" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="6" fill="#83807a">STREETWEAR</text>
+    <path d="M390 470 h60 v-30 h-60 z" fill="#101012"/>
+    <text x="420" y="528" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="4" fill="#b1822c">EST. CONCEPT</text>
+    <line x1="420" y1="640" x2="420" y2="690" stroke="#101012" stroke-opacity="0.35" stroke-dasharray="4 6"/>
+    <circle cx="420" cy="712" r="16" fill="none" stroke="#101012" fill-opacity="0.06"/>
+    <text x="420" y="796" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="4" fill="#f4f1ea">COTTON CORD · BLACK</text>
+  </g>
+
+  <!-- reverse tag -->
+  <g filter="url(#sh)" transform="rotate(7 780 430)">
+    <path d="M640 210 L880 210 L880 670 L640 670 Z" fill="#101012"/>
+    <circle cx="760" cy="258" r="11" fill="none" stroke="#e4b95f" stroke-opacity="0.7" stroke-width="1.5"/>
+    <text x="760" y="342" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="6" fill="#e4b95f">CARE</text>
+    <line x1="686" y1="372" x2="834" y2="372" stroke="#e4b95f" stroke-opacity="0.5"/>
+    <text x="760" y="420" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#d8d4cc">Machine wash cold</text>
+    <text x="760" y="448" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#d8d4cc">Do not tumble dry</text>
+    <text x="760" y="476" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#d8d4cc">Warm iron, reverse</text>
+    <rect x="686" y="540" width="148" height="1.4" fill="#e4b95f" opacity="0.6"/>
+    <text x="760" y="592" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#f4f1ea">Wear it out.</text>
+    <text x="760" y="640" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="4" fill="#83807a">DIE LINE + EYELET 5MM</text>
+  </g>
+
+  <text x="110" y="822" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="5" fill="#f4f1ea">PRINT STUDY — HANGTAG / DIE-CUT</text>
+  <text x="1090" y="822" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="5" fill="#e4b95f">08</text>
+</svg>

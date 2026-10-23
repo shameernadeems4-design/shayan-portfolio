@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Halo and Co identity applications across signage, stationery and packaging">
+  <defs>
+    <g id="mk">
+      <circle r="100" fill="none" stroke="#b1822c" stroke-width="2.5"/>
+      <circle r="84" fill="none" stroke="#b1822c" stroke-width="1" stroke-opacity="0.4"/>
+      <text y="42" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="120" fill="#0f0f10">H</text>
+    </g>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1a1c"/>
+      <stop offset="1" stop-color="#101012"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="#efeade"/>
+  <text x="40" y="60" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="6" fill="#6d6a63">APPLICATIONS</text>
+  <text x="1160" y="60" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="16" letter-spacing="4" fill="#0f0f10">HALO &amp; CO</text>
+  <line x1="40" y1="80" x2="1160" y2="80" stroke="#0f0f10" stroke-opacity="0.12"/>
+
+  <rect x="40" y="100" width="700" height="470" fill="url(#wall)"/>
+  <text x="64" y="134" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="4" fill="#8f8b83">STOREFRONT SIGN</text>
+  <g transform="translate(390,330) scale(0.5)"><use href="#mk"/></g>
+  <text x="390" y="470" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" letter-spacing="8" fill="#efeade">HALO &amp; CO</text>
+  <rect x="300" y="510" width="180" height="1" fill="#b1822c"/>
+
+  <rect x="760" y="100" width="400" height="470" fill="#f5f2ea" stroke="#0f0f10" stroke-opacity="0.08"/>
+  <text x="784" y="134" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="4" fill="#6d6a63">LETTERHEAD</text>
+  <rect x="800" y="160" width="320" height="380" fill="#ffffff" stroke="#0f0f10" stroke-opacity="0.08"/>
+  <g transform="translate(960,210) scale(0.16)"><use href="#mk"/></g>
+  <line x1="830" y1="270" x2="1090" y2="270" stroke="#0f0f10" stroke-opacity="0.15"/>
+  <g fill="#6f6b64">
+    <rect x="830" y="294" width="260" height="4"/>
+    <rect x="830" y="312" width="230" height="4"/>
+    <rect x="830" y="330" width="250" height="4"/>
+    <rect x="830" y="348" width="180" height="4"/>
+    <rect x="830" y="386" width="240" height="4"/>
+    <rect x="830" y="404" width="210" height="4"/>
+    <rect x="830" y="422" width="255" height="4"/>
+  </g>
+  <line x1="830" y1="500" x2="1090" y2="500" stroke="#0f0f10" stroke-opacity="0.12"/>
+  <text x="830" y="522" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="2" fill="#b1822c">12 GUILD ROW &#183; LONDON &#183; HALOCO.COM</text>
+
+  <rect x="40" y="590" width="360" height="270" fill="#f5f2ea" stroke="#0f0f10" stroke-opacity="0.08"/>
+  <text x="64" y="624" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="4" fill="#6d6a63">PACKAGING</text>
+  <rect x="110" y="660" width="220" height="170" rx="4" fill="#0f0f10"/>
+  <rect x="110" y="660" width="220" height="8" fill="#b1822c"/>
+  <g transform="translate(220,730) scale(0.34)"><use href="#mk"/></g>
+  <text x="220" y="812" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" letter-spacing="4" fill="#efeade">HALO &amp; CO</text>
+
+  <rect x="420" y="590" width="740" height="270" fill="#f5f2ea" stroke="#0f0f10" stroke-opacity="0.08"/>
+  <text x="444" y="624" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="4" fill="#6d6a63">COLLATERAL</text>
+  <g transform="rotate(-8 600 730)">
+    <rect x="480" y="660" width="150" height="150" rx="4" fill="#b1822c"/>
+    <text x="555" y="745" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="40" fill="#efeade">H</text>
+  </g>
+  <rect x="660" y="670" width="180" height="130" rx="4" fill="#efeade" stroke="#0f0f10" stroke-opacity="0.12"/>
+  <line x1="690" y1="710" x2="810" y2="710" stroke="#0f0f10" stroke-opacity="0.2"/>
+  <line x1="690" y1="730" x2="790" y2="730" stroke="#0f0f10" stroke-opacity="0.2"/>
+  <line x1="690" y1="750" x2="800" y2="750" stroke="#0f0f10" stroke-opacity="0.2"/>
+  <circle cx="960" cy="725" r="52" fill="none" stroke="#0f0f10" stroke-width="1.5" stroke-opacity="0.5"/>
+  <circle cx="960" cy="725" r="40" fill="none" stroke="#b1822c" stroke-width="1.5" stroke-dasharray="3 5"/>
+  <text x="960" y="733" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#0f0f10">H</text>
+  <rect x="1040" y="670" width="90" height="130" rx="4" fill="#0f0f10"/>
+  <text x="1085" y="742" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="3" fill="#b1822c">HALO</text>
+
+  <text x="40" y="884" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="3" fill="#8d8a80">SELF-INITIATED CONCEPT — FICTIONAL BRAND</text>
+  <text x="1160" y="884" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="3" fill="#8d8a80">02 / APPLICATIONS</text>
+</svg>

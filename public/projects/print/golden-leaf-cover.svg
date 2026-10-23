@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Product label mockup with fine gold rules on cream paper">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4efe5"/>
+      <stop offset="1" stop-color="#ded6c6"/>
+    </linearGradient>
+    <linearGradient id="bottle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3d4a2f"/>
+      <stop offset="0.45" stop-color="#59693f"/>
+      <stop offset="1" stop-color="#2c3722"/>
+    </linearGradient>
+    <filter id="sh" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#3a3222" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#bg)"/>
+
+  <!-- bottle -->
+  <g filter="url(#sh)">
+    <rect x="300" y="250" width="240" height="520" rx="24" fill="url(#bottle)"/>
+    <rect x="368" y="150" width="104" height="120" fill="#2c3722"/>
+    <rect x="360" y="140" width="120" height="40" rx="8" fill="#1f2a1c"/>
+    <rect x="310" y="420" width="220" height="340" rx="6" fill="#f2ecdf"/>
+    <rect x="326" y="436" width="188" height="308" fill="none" stroke="#1f2a1c" stroke-width="1"/>
+    <rect x="332" y="442" width="176" height="296" fill="none" stroke="#b1822c" stroke-width="0.8"/>
+    <text x="420" y="494" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="6" fill="#7d8b6a">EXTRA VIRGIN</text>
+    <text x="420" y="546" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#1f2a1c">Golden</text>
+    <text x="420" y="582" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#1f2a1c">Leaf</text>
+    <line x1="356" y1="612" x2="484" y2="612" stroke="#b1822c"/>
+    <text x="420" y="644" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="3" fill="#4b5344">KORONEIKI · CRETE</text>
+    <text x="420" y="682" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="3" fill="#7d8b6a">500 ML / 16.9 FL OZ</text>
+    <rect x="386" y="702" width="68" height="22" fill="none" stroke="#b1822c" stroke-dasharray="3 3"/>
+    <text x="420" y="718" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" letter-spacing="2" fill="#b1822c">BATCH 014</text>
+  </g>
+
+  <!-- close-up swatch -->
+  <g filter="url(#sh)">
+    <rect x="650" y="250" width="420" height="520" fill="#f2ecdf"/>
+    <rect x="650" y="250" width="420" height="520" fill="none" stroke="#1f2a1c" stroke-opacity="0.15"/>
+    <text x="700" y="360" font-family="Georgia, 'Times New Roman', serif" font-size="76" fill="#1f2a1c">Golden</text>
+    <text x="700" y="440" font-family="Georgia, 'Times New Roman', serif" font-size="76" fill="#1f2a1c">Leaf</text>
+    <line x1="700" y1="480" x2="1020" y2="480" stroke="#b1822c" stroke-width="1.2"/>
+    <line x1="700" y1="488" x2="1020" y2="488" stroke="#b1822c" stroke-width="0.5"/>
+    <text x="700" y="530" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="5" fill="#7d8b6a">HIERARCHY STUDY</text>
+    <text x="700" y="576" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4b5344">Origin first. Variety second.</text>
+    <text x="700" y="602" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4b5344">Brand last — it earns its place.</text>
+    <rect x="700" y="644" width="120" height="70" fill="#1f2a1c"/>
+    <rect x="828" y="644" width="120" height="70" fill="#b1822c"/>
+    <rect x="956" y="644" width="64" height="70" fill="#7d8b6a"/>
+  </g>
+
+  <text x="110" y="150" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="5" fill="#7a766c">PRINT STUDY — PRODUCT LABEL 60MM</text>
+  <text x="1090" y="150" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="5" fill="#b1822c">10</text>
+  <text x="110" y="838" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#1f2a1c">Small-batch label with stamped batch number</text>
+</svg>

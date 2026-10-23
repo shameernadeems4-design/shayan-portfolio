@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Terra Forma identity applications across signage, tote bag, product label and stationery">
+  <defs>
+    <clipPath id="tc2"><circle r="104" cx="0" cy="0"/></clipPath>
+    <g id="mk">
+      <circle r="104" fill="none" stroke="#4d5b3f" stroke-width="2.5"/>
+      <g clip-path="url(#tc2)">
+        <circle cx="-20" cy="-58" r="14" fill="#c2703f"/>
+        <path d="M-104 32 Q-40 -40 10 26 T104 20" fill="none" stroke="#4d5b3f" stroke-width="3"/>
+        <path d="M-104 60 Q-20 8 40 56 T104 50" fill="none" stroke="#c2703f" stroke-width="3"/>
+      </g>
+    </g>
+    <linearGradient id="wallt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3c4633"/>
+      <stop offset="1" stop-color="#2c3526"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="#f2efe6"/>
+  <text x="40" y="60" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="6" fill="#6d6a63">APPLICATIONS</text>
+  <text x="1160" y="60" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="16" letter-spacing="4" fill="#33402b">TERRA FORMA</text>
+  <line x1="40" y1="80" x2="1160" y2="80" stroke="#33402b" stroke-opacity="0.15"/>
+
+  <rect x="40" y="100" width="700" height="470" fill="url(#wallt)"/>
+  <text x="64" y="134" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="4" fill="#cfc8b6">SITE SIGN</text>
+  <g transform="translate(390,320) scale(0.5)"><use href="#mk"/></g>
+  <text x="390" y="462" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" letter-spacing="6" fill="#f2efe6">TERRA FORMA</text>
+  <rect x="310" y="500" width="160" height="1" fill="#c2703f"/>
+
+  <rect x="760" y="100" width="400" height="470" fill="#f7f4ec" stroke="#33402b" stroke-opacity="0.1"/>
+  <text x="784" y="134" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="4" fill="#6d6a63">PACKAGING</text>
+  <rect x="850" y="180" width="220" height="320" rx="4" fill="#e3d9c6"/>
+  <rect x="850" y="180" width="220" height="70" fill="#4d5b3f"/>
+  <g transform="translate(960,215) scale(0.2)"><use href="#mk"/></g>
+  <rect x="880" y="290" width="160" height="1" fill="#33402b" opacity="0.25"/>
+  <text x="960" y="330" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#33402b">SEED MIX</text>
+  <text x="960" y="354" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="3" fill="#c2703f">WILDFLOWER &#183; 40 SPECIES</text>
+  <line x1="880" y1="386" x2="1040" y2="386" stroke="#33402b" opacity="0.18"/>
+  <g fill="#6f6b64">
+    <rect x="880" y="404" width="150" height="4"/>
+    <rect x="880" y="422" width="120" height="4"/>
+    <rect x="880" y="440" width="160" height="4"/>
+  </g>
+  <text x="960" y="482" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="2" fill="#33402b">30 G NET</text>
+
+  <rect x="40" y="590" width="360" height="270" fill="#f7f4ec" stroke="#33402b" stroke-opacity="0.1"/>
+  <text x="64" y="624" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="4" fill="#6d6a63">TOTE BAG</text>
+  <path d="M120 660 h180 v150 a8 8 0 0 1 -8 8 h-164 a8 8 0 0 1 -8 -8 z" fill="#4d5b3f"/>
+  <path d="M158 660 v-24 a36 36 0 0 1 72 0 v24" fill="none" stroke="#4d5b3f" stroke-width="6"/>
+  <g transform="translate(210,730) scale(0.24)"><use href="#mk"/></g>
+  <text x="210" y="790" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="3" fill="#f2efe6">TERRA FORMA</text>
+
+  <rect x="420" y="590" width="740" height="270" fill="#f7f4ec" stroke="#33402b" stroke-opacity="0.1"/>
+  <text x="444" y="624" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="4" fill="#6d6a63">PRODUCT LABEL</text>
+  <rect x="520" y="672" width="260" height="150" rx="4" fill="#f2efe6" stroke="#33402b" stroke-opacity="0.35"/>
+  <rect x="536" y="688" width="228" height="118" fill="none" stroke="#33402b" stroke-opacity="0.25"/>
+  <text x="650" y="726" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" letter-spacing="4" fill="#33402b">TERRA FORMA</text>
+  <text x="650" y="748" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="8" letter-spacing="3" fill="#c2703f">COLD-PRESSED &#183; 500ML</text>
+  <rect x="600" y="764" width="100" height="1" fill="#c2703f"/>
+  <text x="650" y="788" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="8" letter-spacing="2" fill="#6f6b64">BATCH 04 &#183; 2026</text>
+  <g transform="translate(1000,745) scale(0.42)"><use href="#mk"/></g>
+
+  <text x="40" y="884" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="3" fill="#8d8a80">SELF-INITIATED CONCEPT — FICTIONAL BRAND</text>
+  <text x="1160" y="884" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="3" fill="#8d8a80">02 / APPLICATIONS</text>
+</svg>

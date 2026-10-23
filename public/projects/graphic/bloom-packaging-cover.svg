@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Bloom Atelier packaging design system with bottle, box and jar on a shelf">
+  <defs>
+    <g id="mk">
+      <g stroke="#647d5f" stroke-width="2.5" fill="none">
+        <ellipse rx="30" ry="96" cy="-8"/>
+        <ellipse rx="30" ry="96" cy="-8" transform="rotate(45)"/>
+        <ellipse rx="30" ry="96" cy="-8" transform="rotate(90)"/>
+        <ellipse rx="30" ry="96" cy="-8" transform="rotate(135)"/>
+      </g>
+      <circle r="22" fill="#d9a7a0"/>
+    </g>
+    <linearGradient id="shelf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#efe7dc"/>
+      <stop offset="1" stop-color="#e4d8c8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="#f6f1ec"/>
+  <text x="40" y="60" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="6" fill="#6d6a63">PACKAGING SYSTEM</text>
+  <text x="1160" y="60" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="16" letter-spacing="4" fill="#3f4a38">BLOOM ATELIER</text>
+  <line x1="40" y1="80" x2="1160" y2="80" stroke="#3f4a38" stroke-opacity="0.15"/>
+
+  <rect x="40" y="120" width="1120" height="560" fill="url(#shelf)"/>
+  <line x1="40" y1="680" x2="1160" y2="680" stroke="#3f4a38" stroke-opacity="0.2" stroke-width="2"/>
+
+  <g>
+    <rect x="180" y="300" width="170" height="380" rx="12" fill="#647d5f"/>
+    <rect x="240" y="266" width="50" height="44" rx="6" fill="#3f4a38"/>
+    <rect x="210" y="360" width="110" height="1.5" fill="#f6f1ec" opacity="0.5"/>
+    <g transform="translate(265,470) scale(0.42)">
+      <g stroke="#f6f1ec" stroke-width="3" fill="none">
+        <ellipse rx="30" ry="96" cy="-8"/>
+        <ellipse rx="30" ry="96" cy="-8" transform="rotate(45)"/>
+        <ellipse rx="30" ry="96" cy="-8" transform="rotate(90)"/>
+        <ellipse rx="30" ry="96" cy="-8" transform="rotate(135)"/>
+      </g>
+      <circle r="22" fill="#d9a7a0"/>
+    </g>
+    <text x="265" y="600" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" letter-spacing="3" fill="#f6f1ec">BLOOM</text>
+    <text x="265" y="622" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="3" fill="#cfd8c8">ROSE TONIC</text>
+  </g>
+
+  <g>
+    <rect x="470" y="340" width="220" height="340" rx="4" fill="#f6f1ec" stroke="#3f4a38" stroke-opacity="0.18"/>
+    <rect x="470" y="340" width="220" height="10" fill="#d9a7a0"/>
+    <g transform="translate(580,470) scale(0.5)"><use href="#mk"/></g>
+    <rect x="506" y="560" width="148" height="1.5" fill="#3f4a38" opacity="0.25"/>
+    <text x="580" y="596" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" letter-spacing="3" fill="#3f4a38">BLOOM ATELIER</text>
+    <text x="580" y="618" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="3" fill="#a0645c">BOTANICAL SKINCARE</text>
+    <text x="580" y="650" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="2" fill="#8d8a80">50 ML</text>
+  </g>
+
+  <g>
+    <rect x="790" y="430" width="190" height="250" rx="10" fill="#d9a7a0"/>
+    <rect x="790" y="430" width="190" height="52" rx="10" fill="#c08f88"/>
+    <g transform="translate(885,540) scale(0.34)">
+      <g stroke="#f6f1ec" stroke-width="3.5" fill="none">
+        <ellipse rx="30" ry="96" cy="-8"/>
+        <ellipse rx="30" ry="96" cy="-8" transform="rotate(45)"/>
+        <ellipse rx="30" ry="96" cy="-8" transform="rotate(90)"/>
+        <ellipse rx="30" ry="96" cy="-8" transform="rotate(135)"/>
+      </g>
+      <circle r="22" fill="#3f4a38"/>
+    </g>
+    <text x="885" y="648" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="3" fill="#3f4a38">BALM</text>
+  </g>
+
+  <g>
+    <rect x="60" y="180" width="120" height="1.5" fill="#3f4a38" opacity="0.3"/>
+    <text x="60" y="210" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="3" fill="#6d6a63">ONE SYSTEM, THREE FORMATS</text>
+  </g>
+
+  <rect x="40" y="712" width="1120" height="150" fill="#fbf8f4" stroke="#3f4a38" stroke-opacity="0.1"/>
+  <text x="64" y="744" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="4" fill="#6d6a63">LABEL LOCKUP &amp; DIE-LINE</text>
+  <rect x="90" y="772" width="240" height="60" rx="4" fill="#f6f1ec" stroke="#3f4a38" stroke-opacity="0.3"/>
+  <rect x="102" y="784" width="216" height="36" fill="none" stroke="#3f4a38" stroke-opacity="0.2"/>
+  <text x="210" y="808" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="3" fill="#3f4a38">BLOOM ATELIER</text>
+  <g stroke="#8d8a80" stroke-opacity="0.6">
+    <line x1="420" y1="772" x2="420" y2="832" stroke-dasharray="4 5"/>
+    <line x1="700" y1="772" x2="700" y2="832" stroke-dasharray="4 5"/>
+    <line x1="420" y1="788" x2="700" y2="788" stroke-dasharray="4 5"/>
+    <line x1="420" y1="816" x2="700" y2="816" stroke-dasharray="4 5"/>
+  </g>
+  <text x="560" y="806" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="3" fill="#8d8a80">DIE-CUT LABEL — 60 x 24 MM</text>
+  <g transform="translate(1000,802) scale(0.5)"><use href="#mk"/></g>
+
+  <text x="40" y="884" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="3" fill="#8d8a80">SELF-INITIATED CONCEPT — FICTIONAL BRAND</text>
+  <text x="1160" y="884" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="3" fill="#8d8a80">PACKAGING / 01</text>
+</svg>

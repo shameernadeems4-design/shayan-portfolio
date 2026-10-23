@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Bloom Atelier label detail and range variants">
+  <defs>
+    <g id="mk">
+      <g stroke="#647d5f" stroke-width="2.5" fill="none">
+        <ellipse rx="30" ry="96" cy="-8"/>
+        <ellipse rx="30" ry="96" cy="-8" transform="rotate(45)"/>
+        <ellipse rx="30" ry="96" cy="-8" transform="rotate(90)"/>
+        <ellipse rx="30" ry="96" cy="-8" transform="rotate(135)"/>
+      </g>
+      <circle r="22" fill="#d9a7a0"/>
+    </g>
+  </defs>
+  <rect width="1200" height="900" fill="#f6f1ec"/>
+  <text x="40" y="60" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="6" fill="#6d6a63">LABEL DETAIL</text>
+  <text x="1160" y="60" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="16" letter-spacing="4" fill="#3f4a38">BLOOM ATELIER</text>
+  <line x1="40" y1="80" x2="1160" y2="80" stroke="#3f4a38" stroke-opacity="0.15"/>
+
+  <rect x="40" y="120" width="620" height="500" fill="#fbf8f4" stroke="#3f4a38" stroke-opacity="0.12"/>
+  <g transform="translate(350,320) scale(1.05)"><use href="#mk"/></g>
+  <rect x="250" y="470" width="200" height="1.5" fill="#3f4a38" opacity="0.3"/>
+  <text x="350" y="512" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" letter-spacing="5" fill="#3f4a38">BLOOM ATELIER</text>
+  <text x="350" y="540" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="5" fill="#a0645c">BOTANICAL SKINCARE</text>
+  <line x1="300" y1="566" x2="400" y2="566" stroke="#3f4a38" opacity="0.2"/>
+  <text x="350" y="592" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="2" fill="#8d8a80">COLD PROCESSED &#183; 50 ML</text>
+
+  <rect x="700" y="120" width="460" height="500" fill="#f6f1ec" stroke="#3f4a38" stroke-opacity="0.12"/>
+  <text x="724" y="154" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="4" fill="#6d6a63">RANGE VARIANTS</text>
+  <g>
+    <rect x="740" y="190" width="120" height="380" rx="8" fill="#647d5f"/>
+    <rect x="740" y="190" width="120" height="60" rx="8" fill="#b6c2a8"/>
+    <g transform="translate(800,360) scale(0.22)"><use href="#mk"/></g>
+    <text x="800" y="450" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" letter-spacing="2" fill="#f6f1ec">ROSE</text>
+    <text x="800" y="466" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="8" letter-spacing="2" fill="#cfd8c8">TONIC</text>
+  </g>
+  <g>
+    <rect x="880" y="190" width="120" height="380" rx="8" fill="#3f4a38"/>
+    <rect x="880" y="190" width="120" height="60" rx="8" fill="#2c3526"/>
+    <g transform="translate(940,360) scale(0.22)"><use href="#mk"/></g>
+    <text x="940" y="450" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" letter-spacing="2" fill="#f6f1ec">GREEN</text>
+    <text x="940" y="466" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="8" letter-spacing="2" fill="#b6c2a8">CLAY</text>
+  </g>
+  <g>
+    <rect x="1020" y="190" width="120" height="380" rx="8" fill="#d9a7a0"/>
+    <rect x="1020" y="190" width="120" height="60" rx="8" fill="#c08f88"/>
+    <g transform="translate(1080,360) scale(0.22)"><use href="#mk"/></g>
+    <text x="1080" y="450" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" letter-spacing="2" fill="#3f4a38">PETAL</text>
+    <text x="1080" y="466" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="8" letter-spacing="2" fill="#7a4f4a">CREAM</text>
+  </g>
+
+  <rect x="40" y="640" width="1120" height="222" fill="#fbf8f4" stroke="#3f4a38" stroke-opacity="0.12"/>
+  <text x="64" y="672" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="4" fill="#6d6a63">COLOUR &amp; MATERIAL SPEC</text>
+  <g>
+    <rect x="70" y="700" width="90" height="90" fill="#647d5f"/>
+    <text x="70" y="812" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d6a63">Sage #647D5F</text>
+  </g>
+  <g>
+    <rect x="220" y="700" width="90" height="90" fill="#3f4a38"/>
+    <text x="220" y="812" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d6a63">Forest #3F4A38</text>
+  </g>
+  <g>
+    <rect x="370" y="700" width="90" height="90" fill="#d9a7a0"/>
+    <text x="370" y="812" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d6a63">Blush #D9A7A0</text>
+  </g>
+  <g>
+    <rect x="520" y="700" width="90" height="90" fill="#f6f1ec" stroke="#3f4a38" stroke-opacity="0.2"/>
+    <text x="520" y="812" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d6a63">Linen #F6F1EC</text>
+  </g>
+  <text x="660" y="726" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="2" fill="#8d8a80">MATERIAL</text>
+  <text x="660" y="750" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#3f4a38">Matt laminated carton, uncoated label stock</text>
+  <text x="660" y="778" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="2" fill="#8d8a80">FINISH</text>
+  <text x="660" y="802" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#3f4a38">Soft-touch matt, single spot colour</text>
+
+  <text x="40" y="884" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="3" fill="#8d8a80">SELF-INITIATED CONCEPT — FICTIONAL BRAND</text>
+  <text x="1160" y="884" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="3" fill="#8d8a80">PACKAGING / 02</text>
+</svg>

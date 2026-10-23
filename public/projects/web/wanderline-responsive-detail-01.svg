@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Detailed view of a responsive website grid at different breakpoints">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111d2b"/>
+      <stop offset="1" stop-color="#080f16"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <text x="80" y="100" font-family="Helvetica, Arial, sans-serif" font-size="14" letter-spacing="5" fill="#8f8b83">GRID &amp; BREAKPOINT SPECIFICATION</text>
+
+  <!-- 12 col desktop -->
+  <g>
+    <text x="80" y="176" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="4" fill="#e0754b">DESKTOP · 12 COLUMNS · 1440</text>
+    <rect x="80" y="196" width="1040" height="150" fill="#0f1a26"/>
+    <g fill="#e0754b" fill-opacity="0.16">
+      <rect x="104" y="216" width="66" height="110"/>
+      <rect x="190" y="216" width="66" height="110"/>
+      <rect x="276" y="216" width="66" height="110"/>
+      <rect x="362" y="216" width="66" height="110"/>
+      <rect x="448" y="216" width="66" height="110"/>
+      <rect x="534" y="216" width="66" height="110"/>
+      <rect x="620" y="216" width="66" height="110"/>
+      <rect x="706" y="216" width="66" height="110"/>
+      <rect x="792" y="216" width="66" height="110"/>
+      <rect x="878" y="216" width="66" height="110"/>
+      <rect x="964" y="216" width="66" height="110"/>
+      <rect x="1050" y="216" width="66" height="110"/>
+    </g>
+    <rect x="104" y="216" width="572" height="110" fill="none" stroke="#e0754b" stroke-width="1.5"/>
+    <text x="112" y="286" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#f4efe6">CONTENT 6 COL</text>
+    <text x="700" y="286" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8f9aa4">ASIDE 6 COL</text>
+    <text x="146" y="376" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#7d8894">72PX GUTTER · 24PX MARGIN · MAX WIDTH 1280</text>
+  </g>
+
+  <!-- 8 col tablet -->
+  <g>
+    <text x="80" y="444" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="4" fill="#5c8a8a">TABLET · 8 COLUMNS · 834</text>
+    <rect x="80" y="464" width="620" height="130" fill="#0f1a26"/>
+    <g fill="#5c8a8a" fill-opacity="0.18">
+      <rect x="104" y="484" width="56" height="90"/>
+      <rect x="176" y="484" width="56" height="90"/>
+      <rect x="248" y="484" width="56" height="90"/>
+      <rect x="320" y="484" width="56" height="90"/>
+      <rect x="392" y="484" width="56" height="90"/>
+      <rect x="464" y="484" width="56" height="90"/>
+      <rect x="536" y="484" width="56" height="90"/>
+      <rect x="608" y="484" width="56" height="90"/>
+    </g>
+    <rect x="104" y="484" width="488" height="90" fill="none" stroke="#5c8a8a" stroke-width="1.5"/>
+    <text x="112" y="536" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#f4efe6">CONTENT SPANS FULL WIDTH</text>
+    <text x="736" y="536" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#7d8894">Aside content moves</text>
+    <text x="736" y="558" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#7d8894">below the main block.</text>
+  </g>
+
+  <!-- 4 col mobile -->
+  <g>
+    <text x="80" y="682" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="4" fill="#c9a227">MOBILE · 4 COLUMNS · 390</text>
+    <rect x="80" y="702" width="300" height="130" fill="#0f1a26"/>
+    <g fill="#c9a227" fill-opacity="0.2">
+      <rect x="104" y="722" width="56" height="90"/>
+      <rect x="172" y="722" width="56" height="90"/>
+      <rect x="240" y="722" width="56" height="90"/>
+      <rect x="308" y="722" width="52" height="90"/>
+    </g>
+    <text x="112" y="774" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#f4efe6">SINGLE COLUMN</text>
+  </g>
+
+  <!-- type scale -->
+  <g>
+    <text x="440" y="682" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="4" fill="#e4b95f">TYPE SCALE</text>
+    <line x1="440" y1="700" x2="1120" y2="700" stroke="#1e2b3a"/>
+    <text x="440" y="742" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="#f4efe6">H1</text>
+    <text x="520" y="742" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#7d8894">56 / 64 / 40 / 32 px across breakpoints</text>
+    <line x1="440" y1="764" x2="1120" y2="764" stroke="#1e2b3a"/>
+    <text x="440" y="804" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#f4efe6">H2</text>
+    <text x="520" y="804" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#7d8894">34 / 30 / 26 / 24 px — no fluid guesswork</text>
+    <line x1="440" y1="824" x2="1120" y2="824" stroke="#1e2b3a"/>
+    <text x="440" y="856" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#f4efe6">Body</text>
+    <text x="520" y="856" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#7d8894">18 / 17 / 16 px · 68ch measure cap</text>
+  </g>
+
+  <text x="80" y="872" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="4" fill="#5c8a8a">BREAKPOINTS: 390 · 640 · 834 · 1280 · 1440</text>
+</svg>

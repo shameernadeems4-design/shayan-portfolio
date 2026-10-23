@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Sheet showing garment branding placement and sizing specifications">
+  <defs>
+    <filter id="sh" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="#101012"/>
+  <rect x="0" y="0" width="1200" height="900" fill="none" stroke="#26262c" stroke-width="2"/>
+  <line x1="600" y1="0" x2="600" y2="900" stroke="#26262c"/>
+  <line x1="0" y1="450" x2="1200" y2="450" stroke="#26262c"/>
+
+  <g filter="url(#sh)">
+    <path d="M60 130 L130 90 L180 130 L420 130 L470 90 L540 130 L540 180 L480 180 L480 420 L120 420 L120 180 L60 180 Z" fill="#e8e3d9"/>
+    <path d="M180 130 Q300 190 420 130" fill="none" stroke="#101012" stroke-opacity="0.25" stroke-width="3"/>
+    <rect x="272" y="196" width="56" height="20" fill="#101012"/>
+    <text x="300" y="211" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="2" fill="#e8e3d9">ATLAS</text>
+    <rect x="264" y="300" width="72" height="24" fill="none" stroke="#d8452e" stroke-dasharray="3 3"/>
+    <text x="300" y="345" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5f5c56">PLACEMENT A</text>
+  </g>
+
+  <text x="60" y="80" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="5" fill="#8f8b83">PLACEMENT SHEET — NECK PRINT + CHEST MARK</text>
+
+  <g transform="translate(660 130)">
+    <text x="0" y="0" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="5" fill="#8f8b83">MARK VARIANTS</text>
+    <rect x="0" y="40" width="200" height="120" fill="#171719"/>
+    <rect x="30" y="70" width="140" height="60" fill="none" stroke="#e4b95f" stroke-width="1"/>
+    <text x="100" y="107" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="4" fill="#e8e3d9">ATLAS</text>
+    <text x="0" y="196" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6f6f6c">WOVEN LABEL · 60 × 20 MM</text>
+
+    <rect x="230" y="40" width="200" height="120" fill="#171719"/>
+    <rect x="270" y="80" width="70" height="70" rx="4" fill="#d8452e"/>
+    <text x="305" y="127" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="34" fill="#101012">A</text>
+    <text x="230" y="196" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6f6f6c">CHEST MARK · 80 × 80 MM</text>
+
+    <rect x="0" y="230" width="430" height="120" fill="#171719"/>
+    <text x="30" y="286" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="5" fill="#e4b95f">NECK PRINT — HEAT TRANSFER</text>
+    <text x="30" y="316" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8f8b83">1 spot white · 120 °C · 12 seconds</text>
+  </g>
+
+  <g transform="translate(60 470)">
+    <text x="0" y="0" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="5" fill="#8f8b83">SIZE RELATIONSHIP</text>
+    <g transform="translate(0 40)">
+      <rect width="70" height="70" fill="#e4b95f"/>
+      <text x="35" y="100" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6f6f6c">XS 40MM</text>
+      <rect x="110" width="90" height="90" fill="#d8452e"/>
+      <text x="155" y="120" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6f6f6c">60MM</text>
+      <rect x="240" width="120" height="120" fill="#e8e3d9"/>
+      <text x="300" y="150" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6f6f6c">80MM</text>
+    </g>
+    <text x="0" y="252" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8f8b83">Line weights increase with</text>
+    <text x="0" y="274" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8f8b83">size so the mark stays legible.</text>
+  </g>
+
+  <g transform="translate(660 470)">
+    <text x="0" y="0" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="5" fill="#8f8b83">DELIVERY</text>
+    <text x="0" y="40" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#b9b5ae">PDF (outlined) · AI · 300 dpi PNG</text>
+    <text x="0" y="72" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#b9b5ae">Placement sheet + spot colour list</text>
+    <text x="0" y="104" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#b9b5ae">Ready for manufacturer hand-off</text>
+    <rect x="0" y="140" width="160" height="36" fill="#d8452e"/>
+    <text x="80" y="164" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="3" fill="#101012">PRODUCTION KIT</text>
+  </g>
+</svg>

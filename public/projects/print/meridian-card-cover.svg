@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Premium business card mockup on dark stock">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#191919"/>
+      <stop offset="1" stop-color="#0b0b0c"/>
+    </linearGradient>
+    <linearGradient id="cardA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1b1d"/>
+      <stop offset="1" stop-color="#0f0f10"/>
+    </linearGradient>
+    <linearGradient id="cardB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f4ed"/>
+      <stop offset="1" stop-color="#e7e1d5"/>
+    </linearGradient>
+    <filter id="sh" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="26" stdDeviation="26" flood-color="#000000" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <ellipse cx="620" cy="470" rx="520" ry="300" fill="#e4b95f" opacity="0.06"/>
+
+  <!-- dark card, face up -->
+  <g filter="url(#sh)" transform="rotate(-7 520 400)">
+    <rect x="230" y="200" width="580" height="360" rx="10" fill="url(#cardA)"/>
+    <rect x="230" y="200" width="580" height="360" rx="10" fill="none" stroke="#e4b95f" stroke-opacity="0.28"/>
+    <text x="286" y="292" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="#f4f1ea">Meridian</text>
+    <text x="288" y="326" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="7" fill="#b1822c">CONSULTING</text>
+    <line x1="288" y1="496" x2="752" y2="496" stroke="#e4b95f" stroke-opacity="0.5"/>
+    <text x="288" y="530" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="4" fill="#7c7972">BLIND RELIEF + SPOT GOLD</text>
+  </g>
+
+  <!-- light card, reverse -->
+  <g filter="url(#sh)" transform="rotate(5 780 600)">
+    <rect x="560" y="440" width="580" height="360" rx="10" fill="url(#cardB)"/>
+    <text x="616" y="546" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="20" letter-spacing="2" fill="#101012">A. RASHID</text>
+    <text x="616" y="578" font-family="Helvetica, Arial, sans-serif" font-size="14" letter-spacing="3" fill="#7a766c">PRINCIPAL CONSULTANT</text>
+    <line x1="616" y1="620" x2="1080" y2="620" stroke="#101012" stroke-opacity="0.18"/>
+    <text x="616" y="662" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#3f3d38">hello@example.com</text>
+    <text x="616" y="690" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#3f3d38">+00 000 000 0000</text>
+    <text x="616" y="744" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#101012">Meridian</text>
+    <circle cx="1080" cy="744" r="16" fill="none" stroke="#b1822c"/>
+  </g>
+
+  <text x="110" y="150" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="5" fill="#8f8b83">PRINT STUDY — 600GSM DUPLEXED CARD</text>
+  <text x="1090" y="150" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="5" fill="#e4b95f">07</text>
+  <text x="110" y="838" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#f4f1ea">Premium business card — front &amp; reverse</text>
+</svg>

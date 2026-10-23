@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Logo presentation for Lumen, a minimalist light mark">
+  <defs>
+    <g id="mark">
+      <circle r="104" fill="none" stroke="#111114" stroke-width="2" stroke-opacity="0.22"/>
+      <path d="M-72 30 A72 72 0 0 1 72 30 Z" fill="#e0a13a"/>
+      <line x1="-104" y1="30" x2="104" y2="30" stroke="#111114" stroke-width="3"/>
+    </g>
+  </defs>
+  <rect width="1200" height="900" fill="#f5f2ea"/>
+  <rect x="28" y="28" width="1144" height="844" fill="none" stroke="#0a0a0b" stroke-opacity="0.08"/>
+  <text x="64" y="78" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="6" fill="#6d6a63">LOGO PRESENTATION</text>
+  <text x="1136" y="78" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="4" fill="#c07f22">MINIMALIST</text>
+  <rect x="64" y="112" width="1072" height="500" fill="#f7f3ea"/>
+  <rect x="64" y="112" width="1072" height="500" fill="none" stroke="#0a0a0b" stroke-opacity="0.06"/>
+  <g transform="translate(600,300) scale(0.95)"><use href="#mark"/></g>
+  <text x="600" y="556" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" letter-spacing="16" fill="#111114">LUMEN</text>
+  <line x1="64" y1="648" x2="1136" y2="648" stroke="#0a0a0b" stroke-opacity="0.1"/>
+  <line x1="421" y1="648" x2="421" y2="860" stroke="#0a0a0b" stroke-opacity="0.1"/>
+  <line x1="779" y1="648" x2="779" y2="860" stroke="#0a0a0b" stroke-opacity="0.1"/>
+  <text x="242" y="700" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="5" fill="#6d6a63">MARK</text>
+  <text x="600" y="700" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="5" fill="#6d6a63">INVERSE</text>
+  <text x="957" y="700" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="5" fill="#6d6a63">WORDMARK</text>
+  <g transform="translate(242,795) scale(0.34)"><use href="#mark"/></g>
+  <rect x="510" y="748" width="180" height="96" rx="6" fill="#111114"/>
+  <text x="600" y="807" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" letter-spacing="8" fill="#e0a13a">LUMEN</text>
+  <text x="957" y="812" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" letter-spacing="14" fill="#111114">LUMEN</text>
+</svg>

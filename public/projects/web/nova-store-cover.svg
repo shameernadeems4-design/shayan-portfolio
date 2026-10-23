@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="E-commerce storefront layout with product grid and warm palette">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1f1c"/>
+      <stop offset="1" stop-color="#0b0d0c"/>
+    </linearGradient>
+    <linearGradient id="packet" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f4ede0"/>
+      <stop offset="1" stop-color="#ddd2be"/>
+    </linearGradient>
+    <linearGradient id="packet2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1b3327"/>
+      <stop offset="1" stop-color="#12251c"/>
+    </linearGradient>
+    <filter id="sh" x="-30%" y="-30%" width="170%" height="170%">
+      <feDropShadow dx="0" dy="28" stdDeviation="30" flood-color="#000000" flood-opacity="0.65"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#bg)"/>
+
+  <g filter="url(#sh)">
+    <rect x="90" y="80" width="1020" height="700" rx="12" fill="#f7f3ec"/>
+    <rect x="90" y="80" width="1020" height="40" rx="12" fill="#20221f"/>
+    <rect x="90" y="108" width="1020" height="12" fill="#20221f"/>
+    <rect x="188" y="90" width="340" height="20" rx="10" fill="#2d302c"/>
+    <text x="206" y="105" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#a8ada6">novaroast.example</text>
+
+    <!-- store header -->
+    <rect x="90" y="120" width="1020" height="62" fill="#12251c"/>
+    <text x="130" y="160" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#efe7d8">Nova Roast</text>
+    <text x="640" y="158" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2" fill="#a9bfae">SHOP</text>
+    <text x="712" y="158" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2" fill="#a9bfae">SUBSCRIPTION</text>
+    <text x="840" y="158" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2" fill="#a9bfae">STORY</text>
+    <rect x="962" y="140" width="112" height="30" fill="#c98a4b"/>
+    <text x="1018" y="160" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#12251c">CART · 2</text>
+
+    <!-- banner -->
+    <rect x="90" y="182" width="1020" height="150" fill="#efe7d8"/>
+    <text x="130" y="248" font-family="Georgia, 'Times New Roman', serif" font-size="40" fill="#12251c">Roasted this week</text>
+    <text x="130" y="286" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#5f6b5c">Free delivery on orders over $40 · Fresh lots every Monday</text>
+    <rect x="920" y="226" width="150" height="40" fill="#12251c"/>
+    <text x="995" y="251" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="3" fill="#efe7d8">SHOP ALL</text>
+
+    <!-- product grid -->
+    <g>
+      <rect x="130" y="372" width="228" height="220" fill="#ffffff"/>
+      <rect x="158" y="396" width="172" height="128" fill="#f2ece0"/>
+      <path d="M196 412 h96 v76 l-96 24 z" fill="url(#packet)"/>
+      <path d="M196 412 h96 v18 h-96 z" fill="#12251c"/>
+      <text x="130" y="620" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#12251c">Ethiopia Guji</text>
+      <text x="130" y="642" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8579">Light · Floral · Citrus</text>
+      <text x="358" y="642" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#12251c">$18</text>
+
+      <rect x="386" y="372" width="228" height="220" fill="#ffffff"/>
+      <rect x="414" y="396" width="172" height="128" fill="#e9e3d8"/>
+      <path d="M452 412 h96 v76 l-96 24 z" fill="url(#packet2)"/>
+      <path d="M452 412 h96 v18 h-96 z" fill="#0c1710"/>
+      <text x="386" y="620" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#12251c">Colombia Huila</text>
+      <text x="386" y="642" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8579">Medium · Cocoa · Caramel</text>
+      <text x="614" y="642" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#12251c">$17</text>
+
+      <rect x="642" y="372" width="228" height="220" fill="#ffffff"/>
+      <rect x="670" y="396" width="172" height="128" fill="#f2ece0"/>
+      <path d="M708 412 h96 v76 l-96 24 z" fill="url(#packet)"/>
+      <path d="M708 412 h96 v18 h-96 z" fill="#c98a4b"/>
+      <text x="642" y="620" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#12251c">House Blend</text>
+      <text x="642" y="642" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8579">Dark · Toffee · Walnut</text>
+      <text x="870" y="642" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#12251c">$15</text>
+
+      <rect x="898" y="372" width="182" height="220" fill="#12251c"/>
+      <text x="989" y="470" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#efe7d8">Bundles</text>
+      <text x="989" y="500" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3" fill="#c98a4b">SAVE 15%</text>
+      <rect x="928" y="530" width="122" height="34" fill="#efe7d8"/>
+      <text x="989" y="552" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#12251c">VIEW SETS</text>
+    </g>
+  </g>
+
+  <text x="90" y="824" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="5" fill="#8f8b83">WEB CONCEPT — STOREFRONT / CATALOGUE</text>
+  <text x="1110" y="824" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="5" fill="#c98a4b">15</text>
+</svg>

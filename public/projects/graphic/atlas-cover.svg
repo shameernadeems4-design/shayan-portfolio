@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Atlas streetwear campaign poster artwork">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#131313"/>
+      <stop offset="1" stop-color="#060606"/>
+    </linearGradient>
+    <pattern id="halftone" width="10" height="10" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#d8452e" fill-opacity="0.55"/>
+      <circle cx="7" cy="7" r="1.1" fill="#f2f2f0" fill-opacity="0.22"/>
+    </pattern>
+    <filter id="sh" x="-30%" y="-30%" width="170%" height="170%">
+      <feDropShadow dx="0" dy="22" stdDeviation="26" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="290" fill="url(#halftone)" opacity="0.7"/>
+
+  <!-- main poster -->
+  <g filter="url(#sh)">
+    <rect x="110" y="150" width="600" height="640" fill="#0a0a0a"/>
+    <rect x="110" y="150" width="600" height="640" fill="none" stroke="#f2f2f0" stroke-opacity="0.18"/>
+    <text x="150" y="238" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="8" fill="#d8452e">DROP 002 / WINTER</text>
+    <text x="140" y="430" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="132" letter-spacing="-3" fill="#f2f2f0">ATLAS</text>
+    <text x="140" y="530" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="132" letter-spacing="-3" fill="none" stroke="#f2f2f0" stroke-width="2">CITY</text>
+    <rect x="150" y="600" width="520" height="2" fill="#d8452e"/>
+    <text x="150" y="646" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#9a9a96">Heavyweight cotton. Built for the street.</text>
+    <text x="150" y="736" font-family="Helvetica, Arial, sans-serif" font-size="16" letter-spacing="5" fill="#d8452e">LIMITED 200 PIECES</text>
+    <text x="150" y="764" font-family="Helvetica, Arial, sans-serif" font-size="16" letter-spacing="5" fill="#6f6f6c">SHIPPING WORLDWIDE</text>
+  </g>
+
+  <!-- product callout -->
+  <g filter="url(#sh)">
+    <rect x="760" y="250" width="340" height="460" fill="#f2f2f0"/>
+    <rect x="792" y="282" width="276" height="276" fill="#171717"/>
+    <path d="M812 372 h236 v68 a118 118 0 0 1 -236 0 z" fill="#2b2b2b"/>
+    <path d="M812 372 h236" stroke="#d8452e" stroke-width="3"/>
+    <text x="930" y="612" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" letter-spacing="6" fill="#0a0a0a">OVERSIZED TEE</text>
+    <text x="930" y="646" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="3" fill="#7a7a76">S / M / L / XL — STONE BLACK</text>
+    <text x="930" y="688" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#0a0a0a">Drop price  $64</text>
+  </g>
+
+  <text x="110" y="838" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="5" fill="#8f8b83">CONCEPT STUDY — CAMPAIGN ARTWORK</text>
+  <text x="1100" y="838" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="5" fill="#d8452e">03</text>
+</svg>

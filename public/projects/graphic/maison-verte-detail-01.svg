@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Brand identity applications including card, sign and digital layout">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9e3d7"/>
+      <stop offset="1" stop-color="#d8d0bf"/>
+    </linearGradient>
+    <filter id="sh" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#2f321f" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+
+  <!-- signage -->
+  <g filter="url(#sh)">
+    <rect x="100" y="120" width="300" height="500" fill="#16281f"/>
+    <path d="M250 250 C 288 250 306 274 306 306 L306 380 L194 380 L194 306 C 194 274 212 250 250 250 Z" fill="none" stroke="#c9a227" stroke-width="6"/>
+    <path d="M250 288 C 268 288 276 302 276 320 L276 380 L224 380 L224 320 C 224 302 232 288 250 288 Z" fill="#e9e3d7"/>
+    <text x="250" y="452" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="7" fill="#c9a227">SHOPFRONT</text>
+    <text x="250" y="492" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#e9e3d7">Maison Verte</text>
+    <text x="250" y="556" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="4" fill="#7f9a86">12 RUE DES PLANTES</text>
+  </g>
+
+  <!-- card -->
+  <g filter="url(#sh)">
+    <rect x="440" y="120" width="320" height="200" fill="#16281f"/>
+    <path d="M478 176 C 500 176 512 190 512 210 L512 248 L444 248 L444 210 C 444 190 456 176 478 176 Z" fill="none" stroke="#c9a227" stroke-width="4"/>
+    <text x="540" y="212" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#e9e3d7">Maison Verte</text>
+    <text x="542" y="236" font-family="Helvetica, Arial, sans-serif" font-size="9" letter-spacing="4" fill="#c9a227">INTERIOR STUDIO</text>
+    <text x="542" y="286" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8fa393">hello@example.com</text>
+  </g>
+
+  <!-- digital layout -->
+  <g filter="url(#sh)">
+    <rect x="440" y="360" width="320" height="260" rx="8" fill="#f4f1ea"/>
+    <rect x="440" y="360" width="320" height="26" rx="8" fill="#16281f"/>
+    <text x="466" y="440" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#16281f">Plants, placed</text>
+    <text x="466" y="472" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#16281f">with intent.</text>
+    <rect x="466" y="500" width="90" height="28" fill="#16281f"/>
+    <rect x="466" y="546" width="266" height="50" fill="#e2dccd"/>
+    <text x="600" y="580" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="3" fill="#8a8579">DIGITAL APPLICATION</text>
+  </g>
+
+  <!-- tone board -->
+  <g filter="url(#sh)">
+    <rect x="800" y="120" width="300" height="500" fill="#f4f1ea"/>
+    <text x="836" y="182" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="6" fill="#5c7a63">MARK SCALE TEST</text>
+    <g transform="translate(950 300)">
+      <path d="M0 -90 C 58 -90 90 -56 90 -4 L90 90 L-90 90 L-90 -4 C -90 -56 -58 -90 0 -90 Z" fill="none" stroke="#16281f" stroke-width="7"/>
+      <path d="M0 -34 C 30 -34 44 -16 44 6 L44 90 L-44 90 L-44 6 C -44 -16 -30 -34 0 -34 Z" fill="#16281f"/>
+    </g>
+    <g transform="translate(860 456) scale(0.34)">
+      <path d="M0 -90 C 58 -90 90 -56 90 -4 L90 90 L-90 90 L-90 -4 C -90 -56 -58 -90 0 -90 Z" fill="none" stroke="#16281f" stroke-width="16"/>
+      <path d="M0 -34 C 30 -34 44 -16 44 6 L44 90 L-44 90 L-44 6 C -44 -16 -30 -34 0 -34 Z" fill="#16281f"/>
+    </g>
+    <g transform="translate(930 456) scale(0.22)">
+      <path d="M0 -90 C 58 -90 90 -56 90 -4 L90 90 L-90 90 L-90 -4 C -90 -56 -58 -90 0 -90 Z" fill="none" stroke="#16281f" stroke-width="24"/>
+      <path d="M0 -34 C 30 -34 44 -16 44 6 L44 90 L-44 90 L-44 6 C -44 -16 -30 -34 0 -34 Z" fill="#16281f"/>
+    </g>
+    <g transform="translate(980 456) scale(0.15)">
+      <path d="M0 -90 C 58 -90 90 -56 90 -4 L90 90 L-90 90 L-90 -4 C -90 -56 -58 -90 0 -90 Z" fill="#16281f"/>
+    </g>
+    <text x="836" y="556" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="3" fill="#8a8579">FAVICON TO SIGNAGE — NO REDRAW</text>
+  </g>
+
+  <text x="100" y="836" font-family="Helvetica, Arial, sans-serif" font-size="14" letter-spacing="5" fill="#6f6a63">IDENTITY APPLICATIONS — SIGN, CARD, SCREEN, SCALE</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Wanderline travel promotion key visual">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#123049"/>
+      <stop offset="1" stop-color="#0d1b2a"/>
+    </linearGradient>
+    <filter id="sh" x="-30%" y="-30%" width="170%" height="170%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="#0b1520"/>
+
+  <!-- postcard -->
+  <g filter="url(#sh)">
+    <rect x="110" y="130" width="700" height="620" fill="#f4efe6"/>
+    <g clip-path="none">
+      <rect x="110" y="130" width="700" height="360" fill="url(#sky)"/>
+      <circle cx="660" cy="228" r="46" fill="#e0754b" opacity="0.9"/>
+      <path d="M110 400 L270 300 L400 400 L520 330 L700 430 L810 400 L810 490 L110 490 Z" fill="#0f2536"/>
+      <path d="M110 440 L240 372 L360 452 L500 392 L640 460 L810 420 L810 490 L110 490 Z" fill="#5c8a8a" opacity="0.55"/>
+      <path d="M110 470 L200 440 L340 486 L520 448 L700 486 L810 464 L810 490 L110 490 Z" fill="#0d1b2a" opacity="0.6"/>
+    </g>
+    <text x="150" y="556" font-family="Helvetica, Arial, sans-serif" font-size="14" letter-spacing="7" fill="#e0754b">DESTINATION 03 — COASTAL NORTH</text>
+    <text x="146" y="650" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#0d1b2a">Wander further,</text>
+    <text x="146" y="716" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#0d1b2a">stay longer.</text>
+    <line x1="150" y1="690" x2="780" y2="690" stroke="#0d1b2a" stroke-opacity="0.2"/>
+    <text x="150" y="716" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4a5560"></text>
+  </g>
+
+  <!-- ticket strip -->
+  <g filter="url(#sh)">
+    <rect x="850" y="220" width="260" height="440" fill="#f4efe6"/>
+    <circle cx="850" cy="290" r="14" fill="#0b1520"/>
+    <circle cx="1110" cy="290" r="14" fill="#0b1520"/>
+    <line x1="850" y1="290" x2="1110" y2="290" stroke="#0d1b2a" stroke-opacity="0.3" stroke-dasharray="6 8"/>
+    <text x="980" y="252" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="5" fill="#8f8b83">BOARDING PASS</text>
+    <text x="980" y="370" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="#0d1b2a">3 Nights</text>
+    <text x="980" y="404" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="4" fill="#e0754b">FROM $429</text>
+    <rect x="880" y="440" width="200" height="1.5" fill="#0d1b2a" opacity="0.25"/>
+    <text x="980" y="492" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#3f4b56">Flights · Stay · Guide</text>
+    <rect x="880" y="540" width="200" height="52" fill="#0d1b2a"/>
+    <text x="980" y="573" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="14" letter-spacing="4" fill="#f4efe6">BOOK NOW</text>
+  </g>
+
+  <text x="110" y="828" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="5" fill="#8f8b83">CONCEPT STUDY — TRAVEL PROMOTION</text>
+  <text x="1110" y="828" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="5" fill="#e0754b">05</text>
+</svg>

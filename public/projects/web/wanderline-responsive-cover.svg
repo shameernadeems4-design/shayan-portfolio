@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Responsive website layout shown on desktop, tablet and mobile">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111d2b"/>
+      <stop offset="1" stop-color="#080f16"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16405e"/>
+      <stop offset="1" stop-color="#0d1b2a"/>
+    </linearGradient>
+    <filter id="sh" x="-30%" y="-30%" width="170%" height="170%">
+      <feDropShadow dx="0" dy="26" stdDeviation="28" flood-color="#000000" flood-opacity="0.65"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#bg)"/>
+
+  <!-- desktop -->
+  <g filter="url(#sh)">
+    <rect x="70" y="200" width="660" height="440" rx="10" fill="#f4efe6"/>
+    <rect x="70" y="200" width="660" height="30" rx="10" fill="#1d2c3a"/>
+    <rect x="70" y="218" width="660" height="12" fill="#1d2c3a"/>
+    <rect x="94" y="246" width="612" height="180" fill="url(#sky)"/>
+    <path d="M94 356 L200 288 L320 366 L430 306 L560 386 L706 340 L706 426 L94 426 Z" fill="#0f2536"/>
+    <path d="M94 396 L220 340 L360 410 L520 352 L706 404 L706 426 L94 426 Z" fill="#5c8a8a" opacity="0.5"/>
+    <text x="118" y="300" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#f4efe6">Wanderline</text>
+    <rect x="86" y="448" width="620" height="1.5" fill="#0d1b2a" opacity="0.15"/>
+    <text x="110" y="500" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#0d1b2a">Coastal North</text>
+    <text x="110" y="532" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#4a5560">7 nights · small groups · guided routes</text>
+    <rect x="110" y="558" width="130" height="34" fill="#e0754b"/>
+    <text x="175" y="580" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#0d1b2a">VIEW TRIP</text>
+    <rect x="440" y="560" width="266" height="60" fill="#e3ded3"/>
+    <rect x="460" y="580" width="120" height="7" fill="#b7b2a6"/>
+    <rect x="460" y="596" width="180" height="7" fill="#c8c3b7"/>
+  </g>
+
+  <!-- tablet -->
+  <g filter="url(#sh)">
+    <rect x="770" y="180" width="300" height="400" rx="14" fill="#f4efe6"/>
+    <rect x="770" y="180" width="300" height="14" rx="7" fill="#1d2c3a"/>
+    <rect x="790" y="212" width="260" height="120" fill="url(#sky)"/>
+    <path d="M790 290 L860 250 L940 300 L1010 262 L1050 300 L1050 332 L790 332 Z" fill="#0f2536"/>
+    <text x="808" y="250" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#f4efe6">Wanderline</text>
+    <text x="808" y="372" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#0d1b2a">Coastal North</text>
+    <rect x="808" y="392" width="180" height="6" fill="#cfcabc"/>
+    <rect x="808" y="408" width="220" height="6" fill="#dcd7ca"/>
+    <rect x="808" y="440" width="110" height="30" fill="#e0754b"/>
+    <rect x="790" y="500" width="260" height="60" fill="#e3ded3"/>
+  </g>
+
+  <!-- mobile -->
+  <g filter="url(#sh)">
+    <rect x="880" y="620" width="200" height="250" rx="16" fill="#f4efe6"/>
+    <rect x="950" y="630" width="60" height="8" rx="4" fill="#1d2c3a"/>
+    <rect x="896" y="650" width="168" height="90" fill="url(#sky)"/>
+    <path d="M896 716 L950 686 L1010 722 L1064 694 L1064 740 L896 740 Z" fill="#0f2536"/>
+    <text x="906" y="678" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#f4efe6">Wanderline</text>
+    <text x="906" y="770" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#0d1b2a">Coastal North</text>
+    <rect x="906" y="786" width="100" height="5" fill="#cfcabc"/>
+    <rect x="906" y="800" width="140" height="5" fill="#dcd7ca"/>
+    <rect x="906" y="822" width="90" height="26" fill="#e0754b"/>
+  </g>
+
+  <text x="70" y="150" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="5" fill="#8f8b83">WEB CONCEPT — RESPONSIVE LAYOUT STUDY</text>
+  <text x="1130" y="150" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="5" fill="#e0754b">16</text>
+  <text x="70" y="836" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="4" fill="#5c8a8a">DESKTOP 1440 · TABLET 834 · MOBILE 390</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Vertical social story layout for a coffee shop launch offer">
+  <defs>
+    <linearGradient id="story" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1512"/>
+      <stop offset="1" stop-color="#0b0908"/>
+    </linearGradient>
+    <filter id="sh" x="-30%" y="-30%" width="170%" height="170%">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="#0f0d0b"/>
+  <rect x="0" y="0" width="1200" height="900" fill="#141110"/>
+  <ellipse cx="600" cy="300" rx="420" ry="260" fill="#e4b95f" opacity="0.08"/>
+
+  <g filter="url(#sh)">
+    <rect x="180" y="60" width="380" height="780" rx="18" fill="url(#story)"/>
+    <rect x="180" y="60" width="380" height="780" rx="18" fill="none" stroke="#e4b95f" stroke-opacity="0.3"/>
+    <rect x="206" y="86" width="328" height="6" rx="3" fill="#2c2620"/>
+    <rect x="206" y="86" width="120" height="6" rx="3" fill="#e4b95f"/>
+    <text x="370" y="176" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="6" fill="#8f8b83">NOVA ROAST</text>
+    <circle cx="370" cy="356" r="110" fill="#efe6d7"/>
+    <circle cx="370" cy="356" r="78" fill="#3a2415"/>
+    <circle cx="370" cy="356" r="78" fill="none" stroke="#c98a4b" stroke-width="2" stroke-opacity="0.7"/>
+    <text x="370" y="540" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="44" fill="#f3ece1">Launch Week</text>
+    <line x1="266" y1="574" x2="474" y2="574" stroke="#b1822c"/>
+    <text x="370" y="618" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="17" letter-spacing="4" fill="#c98a4b">BUY ONE · GET ONE</text>
+    <rect x="250" y="668" width="240" height="52" rx="26" fill="#e4b95f"/>
+    <text x="370" y="700" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="3" fill="#0f0d0b">SWIPE UP</text>
+    <text x="370" y="784" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="4" fill="#6f6a63">VISIT US · OPEN 7AM</text>
+  </g>
+
+  <!-- feed post -->
+  <g filter="url(#sh)" transform="rotate(3 850 400)">
+    <rect x="660" y="180" width="420" height="420" rx="8" fill="#f3ece1"/>
+    <text x="700" y="250" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="5" fill="#6b5a44">FEED POST — 1080x1080</text>
+    <text x="700" y="360" font-family="Georgia, 'Times New Roman', serif" font-size="48" fill="#0f0d0b">Fresh batch.</text>
+    <text x="700" y="412" font-family="Georgia, 'Times New Roman', serif" font-size="48" fill="#0f0d0b">Every Monday.</text>
+    <rect x="700" y="452" width="180" height="1.5" fill="#b1822c"/>
+    <text x="700" y="500" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#5f5442">Signature espresso, roasted in small lots.</text>
+    <rect x="700" y="536" width="150" height="40" fill="#0f0d0b"/>
+    <text x="775" y="561" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="3" fill="#f3ece1">ORDER NOW</text>
+    <circle cx="1010" cy="330" r="46" fill="#efe6d7"/>
+    <circle cx="1010" cy="330" r="32" fill="#3a2415"/>
+  </g>
+
+  <text x="180" y="866" font-family="Helvetica, Arial, sans-serif" font-size="14" letter-spacing="5" fill="#8f8b83">STORY + FEED FORMATS FROM ONE KEY VISUAL</text>
+</svg>

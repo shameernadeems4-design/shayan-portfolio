@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Pulse Athletic fitness advertisement artwork">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171a1c"/>
+      <stop offset="1" stop-color="#0b0c0d"/>
+    </linearGradient>
+    <pattern id="lines" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+      <rect width="8" height="16" fill="#c6f24e" fill-opacity="0.10"/>
+    </pattern>
+    <filter id="sh" x="-30%" y="-30%" width="170%" height="170%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect width="1200" height="900" fill="url(#lines)"/>
+
+  <!-- diagonal volt bands -->
+  <g opacity="0.9">
+    <path d="M0 620 L1200 300 L1200 360 L0 680 Z" fill="#c6f24e" fill-opacity="0.10"/>
+    <path d="M0 700 L1200 380 L1200 392 L0 712 Z" fill="#c6f24e" fill-opacity="0.22"/>
+  </g>
+
+  <!-- poster -->
+  <g filter="url(#sh)">
+    <rect x="120" y="120" width="620" height="640" fill="#111214"/>
+    <rect x="120" y="120" width="620" height="640" fill="none" stroke="#f5f2ea" stroke-opacity="0.16"/>
+    <text x="160" y="196" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="8" fill="#c6f24e">PULSE ATHLETIC CLUB</text>
+    <text x="152" y="368" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="118" letter-spacing="-4" fill="#f5f2ea">TRAIN</text>
+    <text x="152" y="482" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="118" letter-spacing="-4" fill="#c6f24e">LOUDER</text>
+    <text x="160" y="546" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#9aa0a6">Strength · Conditioning · Recovery</text>
+    <rect x="160" y="600" width="200" height="48" fill="#c6f24e"/>
+    <text x="260" y="631" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="16" letter-spacing="3" fill="#0b0c0d">JOIN NOW</text>
+    <g>
+      <text x="400" y="640" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="56" fill="#2a2e31">12</text>
+      <text x="400" y="668" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3" fill="#7c8288">WEEK PLAN</text>
+      <text x="520" y="640" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="56" fill="#2a2e31">24</text>
+      <text x="520" y="668" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3" fill="#7c8288">CLASSES</text>
+      <text x="640" y="640" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="56" fill="#2a2e31">7</text>
+      <text x="640" y="668" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3" fill="#7c8288">DAYS</text>
+    </g>
+  </g>
+
+  <!-- offer card -->
+  <g filter="url(#sh)">
+    <rect x="800" y="220" width="310" height="430" rx="4" fill="#f5f2ea"/>
+    <rect x="800" y="220" width="310" height="120" fill="#111214"/>
+    <text x="955" y="292" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="14" letter-spacing="6" fill="#c6f24e">MEMBERSHIP</text>
+    <text x="955" y="330" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="26" fill="#f5f2ea">FIRST MONTH FREE</text>
+    <line x1="836" y1="392" x2="1074" y2="392" stroke="#111214" stroke-opacity="0.2"/>
+    <text x="836" y="428" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#3b4046">Unlimited gym access</text>
+    <text x="836" y="458" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#3b4046">All group classes included</text>
+    <text x="836" y="488" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#3b4046">No joining fee</text>
+    <rect x="836" y="536" width="238" height="52" fill="#111214"/>
+    <text x="955" y="569" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="14" letter-spacing="4" fill="#c6f24e">CLAIM OFFER</text>
+  </g>
+
+  <text x="120" y="836" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="5" fill="#8f8b83">CONCEPT STUDY — ADVERTISING</text>
+  <text x="1110" y="836" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="5" fill="#c6f24e">04</text>
+</svg>

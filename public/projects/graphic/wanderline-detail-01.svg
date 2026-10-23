@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Second travel destination layout with layered horizon shapes">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b1a2e"/>
+      <stop offset="1" stop-color="#0d1b2a"/>
+    </linearGradient>
+    <filter id="sh" x="-30%" y="-30%" width="170%" height="170%">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="#0d1b2a"/>
+
+  <g filter="url(#sh)">
+    <rect x="110" y="110" width="620" height="680" fill="#f4efe6"/>
+    <rect x="110" y="110" width="620" height="410" fill="url(#sky)"/>
+    <circle cx="590" cy="220" r="54" fill="#f4efe6" opacity="0.85"/>
+    <path d="M110 420 L260 300 L390 400 L520 330 L660 430 L730 400 L730 520 L110 520 Z" fill="#101c2b"/>
+    <path d="M110 470 L250 384 L400 470 L540 410 L730 480 L730 520 L110 520 Z" fill="#7a5c6e" opacity="0.6"/>
+    <path d="M110 500 L230 466 L380 504 L560 470 L730 502 L730 520 L110 520 Z" fill="#0d1b2a"/>
+    <text x="150" y="578" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="6" fill="#e0754b">DESTINATION 02 — DESERT PLATEAU</text>
+    <text x="146" y="668" font-family="Georgia, 'Times New Roman', serif" font-size="60" fill="#0d1b2a">Slow mornings,</text>
+    <text x="146" y="730" font-family="Georgia, 'Times New Roman', serif" font-size="60" fill="#0d1b2a">long horizons.</text>
+  </g>
+
+  <g filter="url(#sh)">
+    <rect x="780" y="110" width="310" height="680" fill="#0d1b2a"/>
+    <rect x="780" y="110" width="310" height="680" fill="none" stroke="#e0754b" stroke-opacity="0.3"/>
+    <text x="820" y="182" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="6" fill="#e0754b">SAME SYSTEM</text>
+    <text x="820" y="248" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#f4efe6">One layout,</text>
+    <text x="820" y="288" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#f4efe6">new horizon</text>
+    <rect x="820" y="330" width="230" height="1.5" fill="#e0754b" opacity="0.6"/>
+    <text x="820" y="380" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#b9c2c9">Each destination swaps the</text>
+    <text x="820" y="404" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#b9c2c9">horizon line and the accent —</text>
+    <text x="820" y="428" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#b9c2c9">the grid never changes.</text>
+    <rect x="820" y="480" width="230" height="90" fill="#152438"/>
+    <text x="844" y="520" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3" fill="#8f9aa4">HORIZON / LOW</text>
+    <rect x="820" y="590" width="230" height="90" fill="#152438"/>
+    <text x="844" y="630" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3" fill="#8f9aa4">HORIZON / MID</text>
+    <rect x="820" y="700" width="230" height="50" fill="#e0754b"/>
+    <text x="935" y="731" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3" fill="#0d1b2a">SERIES EXTENSION</text>
+  </g>
+
+  <text x="110" y="844" font-family="Helvetica, Arial, sans-serif" font-size="14" letter-spacing="5" fill="#8f8b83">DESTINATION VARIANT — REUSABLE LAYOUT SYSTEM</text>
+</svg>

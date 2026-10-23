@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Mobile version of the business website design">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1c21"/>
+      <stop offset="1" stop-color="#0c0d10"/>
+    </linearGradient>
+    <filter id="sh" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="24" stdDeviation="26" flood-color="#000000" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <text x="90" y="110" font-family="Helvetica, Arial, sans-serif" font-size="14" letter-spacing="5" fill="#8f8b83">SAME CONTENT ORDER AT 390PX</text>
+
+  <!-- phone 1 -->
+  <g filter="url(#sh)">
+    <rect x="140" y="160" width="290" height="620" rx="24" fill="#ffffff"/>
+    <rect x="140" y="160" width="290" height="620" rx="24" fill="none" stroke="#2c2f38"/>
+    <rect x="256" y="176" width="60" height="8" rx="4" fill="#20222a"/>
+    <text x="168" y="232" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#111318">Meridian</text>
+    <rect x="360" y="216" width="42" height="24" fill="#111318"/>
+    <line x1="168" y1="256" x2="404" y2="256" stroke="#e6e3dc"/>
+    <rect x="168" y="276" width="236" height="180" fill="#f1f0ec"/>
+    <text x="188" y="322" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="4" fill="#b1822c">STRATEGY</text>
+    <text x="188" y="366" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#111318">Clear advice</text>
+    <text x="188" y="396" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#111318">for growth.</text>
+    <rect x="188" y="416" width="120" height="28" fill="#111318"/>
+    <rect x="168" y="480" width="236" height="110" fill="#ffffff" stroke="#e4e2db"/>
+    <rect x="188" y="502" width="26" height="26" fill="#111318"/>
+    <text x="188" y="562" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#111318">Consulting</text>
+    <rect x="168" y="606" width="236" height="110" fill="#111318"/>
+    <rect x="188" y="628" width="26" height="26" fill="#f4f1ea"/>
+    <text x="188" y="688" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#f4f1ea">Delivery</text>
+    <text x="188" y="742" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="3" fill="#8f8b83">MOBILE — 390 × 844</text>
+  </g>
+
+  <!-- annotations -->
+  <g>
+    <text x="520" y="220" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="5" fill="#e4b95f">LAYOUT NOTES</text>
+    <line x1="520" y1="244" x2="1090" y2="244" stroke="#26262c"/>
+    <text x="520" y="290" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#cfcbc2">One column, 24px side margins on every breakpoint.</text>
+    <text x="520" y="318" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#cfcbc2">Hero copy scales 54 → 28px, no line ever overflows.</text>
+    <text x="520" y="346" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#cfcbc2">Service cards stack in the same reading order as desktop.</text>
+    <text x="520" y="374" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#cfcbc2">Contact button stays reachable with a thumb.</text>
+
+    <text x="520" y="452" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="5" fill="#e4b95f">BUILD NOTES</text>
+    <line x1="520" y1="476" x2="1090" y2="476" stroke="#26262c"/>
+    <text x="520" y="522" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#cfcbc2">Static-friendly structure — maps to a WordPress theme</text>
+    <text x="520" y="550" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#cfcbc2">without a page builder.</text>
+    <text x="520" y="578" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#cfcbc2">Images specified at 2× for retina displays.</text>
+    <text x="520" y="606" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#cfcbc2">Semantic headings: one H1, sections as H2.</text>
+
+    <rect x="520" y="656" width="560" height="124" fill="#14161b"/>
+    <text x="548" y="700" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#f4f1ea">Responsive, not just smaller.</text>
+    <text x="548" y="734" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#8f8b83">The hierarchy is re-composed for the screen it lands on.</text>
+    <rect x="548" y="748" width="120" height="1.4" fill="#e4b95f"/>
+  </g>
+
+  <text x="90" y="836" font-family="Helvetica, Arial, sans-serif" font-size="14" letter-spacing="5" fill="#6d6a63">MOBILE LAYOUT — MERIDIAN BUSINESS SITE</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Brand identity system board for Halo and Co showing logo lockup, palette, typography and business cards">
+  <defs>
+    <g id="mk">
+      <circle r="100" fill="none" stroke="#b1822c" stroke-width="2.5"/>
+      <circle r="84" fill="none" stroke="#b1822c" stroke-width="1" stroke-opacity="0.4"/>
+      <text y="42" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="120" fill="#0f0f10">H</text>
+    </g>
+  </defs>
+  <rect width="1200" height="900" fill="#efeade"/>
+  <text x="40" y="60" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="6" fill="#6d6a63">BRAND IDENTITY SYSTEM</text>
+  <text x="1160" y="60" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="16" letter-spacing="4" fill="#0f0f10">HALO &amp; CO</text>
+  <line x1="40" y1="80" x2="1160" y2="80" stroke="#0f0f10" stroke-opacity="0.12"/>
+
+  <rect x="40" y="100" width="700" height="400" fill="#f5f2ea" stroke="#0f0f10" stroke-opacity="0.08"/>
+  <text x="64" y="134" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="4" fill="#6d6a63">PRIMARY LOCKUP</text>
+  <g transform="translate(390,268) scale(0.6)"><use href="#mk"/></g>
+  <text x="390" y="430" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" letter-spacing="9" fill="#0f0f10">HALO &amp; CO</text>
+  <text x="390" y="462" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="6" fill="#b1822c">TIMEKEEPERS SINCE 1924</text>
+
+  <rect x="760" y="100" width="400" height="400" fill="#f5f2ea" stroke="#0f0f10" stroke-opacity="0.08"/>
+  <text x="784" y="134" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="4" fill="#6d6a63">COLOUR PALETTE</text>
+  <g>
+    <rect x="784" y="156" width="60" height="60" fill="#0f0f10"/>
+    <text x="864" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#0f0f10">Onyx</text>
+    <text x="864" y="204" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#6f6b64">#0F0F10</text>
+    <rect x="784" y="232" width="60" height="60" fill="#b1822c"/>
+    <text x="864" y="258" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#0f0f10">Antique Gold</text>
+    <text x="864" y="280" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#6f6b64">#B1822C</text>
+    <rect x="784" y="308" width="60" height="60" fill="#efeade" stroke="#0f0f10" stroke-opacity="0.12"/>
+    <text x="864" y="334" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#0f0f10">Stone</text>
+    <text x="864" y="356" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#6f6b64">#EFEADE</text>
+    <rect x="784" y="384" width="60" height="60" fill="#6f6b64"/>
+    <text x="864" y="410" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#0f0f10">Warm Grey</text>
+    <text x="864" y="432" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#6f6b64">#6F6B64</text>
+  </g>
+
+  <rect x="40" y="520" width="400" height="340" fill="#f5f2ea" stroke="#0f0f10" stroke-opacity="0.08"/>
+  <text x="64" y="554" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="4" fill="#6d6a63">TYPOGRAPHY</text>
+  <text x="72" y="700" font-family="Georgia, 'Times New Roman', serif" font-size="150" fill="#0f0f10">Aa</text>
+  <text x="72" y="748" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#0f0f10">Canela / Georgia — Display</text>
+  <text x="72" y="776" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#6f6b64">Grotesque for body, labels and data.</text>
+  <line x1="72" y1="800" x2="408" y2="800" stroke="#0f0f10" stroke-opacity="0.12"/>
+  <text x="72" y="828" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="2" fill="#6f6b64">ABCDEFGHIJKLM 0123456789</text>
+
+  <rect x="460" y="520" width="700" height="340" fill="#f5f2ea" stroke="#0f0f10" stroke-opacity="0.08"/>
+  <text x="484" y="554" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="4" fill="#6d6a63">BUSINESS CARDS</text>
+  <g transform="rotate(-6 640 690)">
+    <rect x="510" y="620" width="280" height="160" rx="6" fill="#0f0f10"/>
+    <circle cx="650" cy="690" r="26" fill="none" stroke="#b1822c" stroke-width="1.4"/>
+    <text x="650" y="699" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#b1822c">H</text>
+    <rect x="510" y="748" width="280" height="1" fill="#b1822c" opacity="0.5"/>
+  </g>
+  <g transform="rotate(5 880 700)">
+    <rect x="780" y="640" width="300" height="170" rx="6" fill="#efeade" stroke="#0f0f10" stroke-opacity="0.1"/>
+    <text x="808" y="686" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#0f0f10">Amara Vance</text>
+    <text x="808" y="708" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="3" fill="#b1822c">MASTER HOROLOGIST</text>
+    <rect x="808" y="724" width="150" height="1" fill="#0f0f10" opacity="0.2"/>
+    <text x="808" y="748" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6f6b64">hello@example.com</text>
+    <text x="808" y="766" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6f6b64">12 Guild Row, London</text>
+  </g>
+
+  <text x="40" y="884" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="3" fill="#8d8a80">SELF-INITIATED CONCEPT — FICTIONAL BRAND</text>
+  <text x="1160" y="884" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="3" fill="#8d8a80">01 / IDENTITY</text>
+</svg>

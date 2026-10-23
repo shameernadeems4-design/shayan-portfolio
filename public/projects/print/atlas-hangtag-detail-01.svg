@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Reverse of a hangtag showing care information and die-cut line">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#121214"/>
+      <stop offset="1" stop-color="#08080a"/>
+    </linearGradient>
+    <filter id="sh" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#000000" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <ellipse cx="420" cy="470" rx="300" ry="300" fill="#e4b95f" opacity="0.05"/>
+
+  <!-- tag front -->
+  <g filter="url(#sh)">
+    <path d="M140 130 L360 130 L360 730 L140 730 Z" fill="#f4f1ea"/>
+    <path d="M140 130 L360 130 L360 730 L140 730 Z" fill="none" stroke="#0a0a0a" stroke-opacity="0.15"/>
+    <circle cx="250" cy="176" r="10" fill="none" stroke="#0a0a0a" stroke-opacity="0.6"/>
+    <line x1="158" y1="228" x2="342" y2="228" stroke="#b1822c" stroke-width="1.4"/>
+    <text x="250" y="360" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="40" fill="#0a0a0a">ATLAS</text>
+    <text x="250" y="392" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="6" fill="#83807a">STREETWEAR</text>
+    <path d="M226 428 h48 v-24 h-48 z" fill="#0a0a0a"/>
+    <rect x="180" y="480" width="140" height="1" fill="#b1822c"/>
+    <text x="250" y="524" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="3" fill="#7a766c">SIZE · M</text>
+    <text x="250" y="556" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="3" fill="#7a766c">STYLE · AC-240</text>
+    <text x="250" y="676" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="3" fill="#a8a49b">MADE FOR THE STREET</text>
+  </g>
+
+  <!-- reverse with specs -->
+  <g filter="url(#sh)">
+    <path d="M460 180 L900 180 L900 700 L460 700 Z" fill="#0f0f10"/>
+    <path d="M460 180 L900 180 L900 700 L460 700 Z" fill="none" stroke="#e4b95f" stroke-dasharray="7 6" stroke-opacity="0.5"/>
+    <text x="500" y="248" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="6" fill="#e4b95f">SPECIFICATION</text>
+    <line x1="500" y1="272" x2="860" y2="272" stroke="#e4b95f" stroke-opacity="0.35"/>
+    <text x="500" y="316" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8f8b83">SIZE</text>
+    <text x="860" y="316" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#e8e2d6">50 × 140 mm, portrait</text>
+    <text x="500" y="352" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8f8b83">STOCK</text>
+    <text x="860" y="352" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#e8e2d6">400gsm uncoated cream</text>
+    <text x="500" y="388" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8f8b83">FINISH</text>
+    <text x="860" y="388" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#e8e2d6">Matt lamination + spot gold</text>
+    <text x="500" y="424" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8f8b83">EYELET</text>
+    <text x="860" y="424" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#e8e2d6">5 mm punch, black finish</text>
+    <text x="500" y="460" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8f8b83">CORD</text>
+    <text x="860" y="460" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#e8e2d6">150 mm cotton, natural</text>
+    <line x1="500" y1="500" x2="860" y2="500" stroke="#2a2a2c"/>
+    <text x="500" y="544" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8f8b83">CARE LABEL COPY</text>
+    <text x="500" y="580" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#d8d4cc">Machine wash cold · Do not bleach</text>
+    <text x="500" y="606" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#d8d4cc">Do not tumble dry · Warm iron</text>
+    <text x="500" y="632" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#d8d4cc">Wash inside out with similar colours</text>
+    <rect x="500" y="656" width="150" height="30" fill="#d8452e"/>
+    <text x="575" y="676" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="3" fill="#0f0f10">PRODUCTION READY</text>
+  </g>
+
+  <text x="140" y="800" font-family="Helvetica, Arial, sans-serif" font-size="14" letter-spacing="5" fill="#8f8b83">HANGTAG REVERSE — CARE, SIZE AND PRODUCTION SPEC</text>
+  <text x="1090" y="800" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="14" letter-spacing="5" fill="#d8452e">PRINT / APPAREL</text>
+</svg>

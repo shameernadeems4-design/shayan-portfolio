@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Business card artwork shown front and back with bleed guides">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3f1ec"/>
+      <stop offset="1" stop-color="#ddd9d0"/>
+    </linearGradient>
+    <filter id="sh" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#2b2b2b" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="900" fill="none" stroke="#b1822c" stroke-opacity="0.35"/>
+  <rect x="24" y="24" width="1152" height="852" fill="none" stroke="#b1822c" stroke-opacity="0.2"/>
+
+  <text x="80" y="110" font-family="Helvetica, Arial, sans-serif" font-size="14" letter-spacing="5" fill="#8f8b83">ARTWORK — 85 × 55 MM · 3 MM BLEED · TRIM &amp; SAFE AREA SHOWN</text>
+
+  <!-- front artwork -->
+  <g filter="url(#sh)">
+    <rect x="80" y="180" width="510" height="330" fill="#f7f5f0"/>
+    <rect x="80" y="180" width="510" height="330" fill="none" stroke="#b1822c" stroke-dasharray="8 6"/>
+    <rect x="104" y="204" width="462" height="282" fill="none" stroke="#c9c4b8"/>
+    <text x="140" y="300" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#101012">Meridian</text>
+    <text x="142" y="330" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="6" fill="#b1822c">CONSULTING</text>
+    <line x1="142" y1="404" x2="528" y2="404" stroke="#101012" stroke-opacity="0.25"/>
+    <text x="142" y="440" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="3" fill="#7a766c">FRONT — MONOGRAM + RULE ONLY</text>
+    <text x="142" y="470" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="3" fill="#a8a49b">BLEED 3MM · SAFE 4MM</text>
+  </g>
+
+  <!-- back artwork -->
+  <g filter="url(#sh)">
+    <rect x="610" y="180" width="510" height="330" fill="#101012"/>
+    <rect x="610" y="180" width="510" height="330" fill="none" stroke="#e4b95f" stroke-dasharray="8 6" stroke-opacity="0.7"/>
+    <text x="666" y="292" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="19" letter-spacing="2" fill="#f4f1ea">A. RASHID</text>
+    <text x="666" y="320" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3" fill="#8f8b83">PRINCIPAL CONSULTANT</text>
+    <line x1="666" y1="352" x2="1064" y2="352" stroke="#e4b95f" stroke-opacity="0.4"/>
+    <text x="666" y="392" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#cfcbc2">hello@example.com</text>
+    <text x="666" y="418" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#cfcbc2">+00 000 000 0000</text>
+    <text x="666" y="452" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#7c7972">Studio 4, Example Street, City</text>
+    <text x="666" y="486" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="3" fill="#5f5c56">SPOT GOLD PM 871 C</text>
+  </g>
+
+  <!-- production notes -->
+  <g>
+    <rect x="80" y="560" width="1040" height="230" fill="#f7f5f0"/>
+    <text x="120" y="614" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="6" fill="#8f8b83">PRODUCTION NOTES</text>
+    <line x1="120" y1="636" x2="1080" y2="636" stroke="#101012" stroke-opacity="0.15"/>
+    <text x="120" y="680" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#3f3d38">Stock: 600gsm duplexed board, uncoated both sides</text>
+    <text x="120" y="708" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#3f3d38">Finish: blind relief monogram on reverse · spot gold hairline</text>
+    <text x="120" y="736" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#3f3d38">Colour: 1 spot + 1 black · exported as outlined PDF/X-4</text>
+    <text x="120" y="764" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#3f3d38">Trim: 85 × 55 mm · corner radius 3 mm</text>
+  </g>
+
+  <text x="620" y="548" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#101012">Front &amp; reverse, ready for press</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Streetwear product callout graphic with size details">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111112"/>
+      <stop offset="1" stop-color="#060606"/>
+    </linearGradient>
+    <pattern id="ht" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.6" fill="#d8452e" fill-opacity="0.4"/>
+    </pattern>
+    <filter id="sh" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect x="600" y="0" width="600" height="900" fill="url(#ht)" opacity="0.5"/>
+
+  <g filter="url(#sh)">
+    <rect x="110" y="120" width="460" height="660" fill="#f2f2f0"/>
+    <rect x="150" y="170" width="380" height="380" fill="#161616"/>
+    <path d="M186 370 h308 v44 h-34 l-14 118 h-212 l-14 -118 h-34 z" fill="#2e2e2e"/>
+    <path d="M186 370 h308" stroke="#d8452e" stroke-width="4"/>
+    <text x="340" y="600" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" letter-spacing="6" fill="#0a0a0a">ATLAS CITY TEE</text>
+    <text x="340" y="636" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="14" letter-spacing="3" fill="#7a7a76">HEAVYWEIGHT · 240 GSM</text>
+    <line x1="150" y1="670" x2="530" y2="670" stroke="#0a0a0a" stroke-opacity="0.2"/>
+    <text x="150" y="712" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#3b3b38">COLOUR / STONE BLACK</text>
+    <text x="150" y="740" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#3b3b38">FIT / OVERSIZED · DROP SHOULDER</text>
+  </g>
+
+  <g filter="url(#sh)">
+    <rect x="640" y="200" width="440" height="480" fill="#0f0f0f"/>
+    <rect x="640" y="200" width="440" height="480" fill="none" stroke="#f2f2f0" stroke-opacity="0.15"/>
+    <text x="680" y="270" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="6" fill="#d8452e">SIZE CHART</text>
+    <line x1="680" y1="300" x2="1040" y2="300" stroke="#f2f2f0" stroke-opacity="0.18"/>
+    <text x="680" y="346" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#8f8f8b">SIZE</text>
+    <text x="1040" y="346" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#8f8f8b">CHEST / LENGTH</text>
+    <line x1="680" y1="368" x2="1040" y2="368" stroke="#2a2a2a"/>
+    <text x="680" y="410" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#f2f2f0">S</text>
+    <text x="1040" y="410" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#d8452e">104 / 68</text>
+    <text x="680" y="462" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#f2f2f0">M</text>
+    <text x="1040" y="462" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#d8452e">110 / 71</text>
+    <text x="680" y="514" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#f2f2f0">L</text>
+    <text x="1040" y="514" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#d8452e">116 / 74</text>
+    <text x="680" y="566" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#f2f2f0">XL</text>
+    <text x="1040" y="566" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#d8452e">122 / 77</text>
+    <line x1="680" y1="596" x2="1040" y2="596" stroke="#2a2a2a"/>
+    <text x="680" y="636" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3" fill="#6f6f6c">MEASUREMENTS IN CM</text>
+  </g>
+
+  <text x="110" y="836" font-family="Helvetica, Arial, sans-serif" font-size="14" letter-spacing="5" fill="#8f8b83">PRODUCT CALLOUT FRAME — CAMPAIGN SYSTEM</text>
+</svg>
