@@ -98,14 +98,17 @@ export default async function ProjectPage({ params }: PageProps) {
 
           <div className="shell relative pb-14">
             <Reveal delay={80}>
-              <div className="relative aspect-16/10 overflow-hidden border border-line bg-surface paper-shadow">
+              <div
+                className="relative mx-auto max-h-[900px] overflow-hidden border border-line bg-surface paper-shadow"
+                style={{ aspectRatio: `${project.cover.width} / ${project.cover.height}` }}
+              >
                 <Image
                   src={project.cover.src}
                   alt={project.cover.alt}
                   fill
                   priority
                   sizes="100vw"
-                  className="object-cover"
+                  className="object-contain"
                 />
               </div>
             </Reveal>
@@ -185,35 +188,37 @@ export default async function ProjectPage({ params }: PageProps) {
           </div>
         </section>
 
-        <section className="border-b border-line py-16 sm:py-20">
-          <div className="shell">
-            <p className="font-sans text-[10px] uppercase tracking-[0.3em] text-gold">
-              Detail work
-            </p>
-            <div className="mt-8 grid gap-10">
-              {project.gallery.map((image, index) => (
-                <Reveal key={image.src} delay={index * 80}>
-                  <figure>
-                    <div className="relative aspect-16/10 overflow-hidden border border-line bg-surface">
-                      <Image
-                        src={image.src}
-                        alt={image.alt}
-                        fill
-                        sizes="(min-width: 1024px) 90vw, 100vw"
-                        className="object-cover"
-                      />
-                    </div>
-                    {image.caption ? (
-                      <figcaption className="mt-4 font-sans text-[12px] uppercase tracking-[0.2em] text-muted-dim">
-                        {image.caption}
-                      </figcaption>
-                    ) : null}
-                  </figure>
-                </Reveal>
-              ))}
+        {project.gallery.length > 0 ? (
+          <section className="border-b border-line py-16 sm:py-20">
+            <div className="shell">
+              <p className="font-sans text-[10px] uppercase tracking-[0.3em] text-gold">
+                Detail work
+              </p>
+              <div className="mt-8 grid gap-10">
+                {project.gallery.map((image, index) => (
+                  <Reveal key={image.src} delay={index * 80}>
+                    <figure>
+                      <div className="relative aspect-16/10 overflow-hidden border border-line bg-surface">
+                        <Image
+                          src={image.src}
+                          alt={image.alt}
+                          fill
+                          sizes="(min-width: 1024px) 90vw, 100vw"
+                          className="object-cover"
+                        />
+                      </div>
+                      {image.caption ? (
+                        <figcaption className="mt-4 font-sans text-[12px] uppercase tracking-[0.2em] text-muted-dim">
+                          {image.caption}
+                        </figcaption>
+                      ) : null}
+                    </figure>
+                  </Reveal>
+                ))}
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
+        ) : null}
 
         <nav
           aria-label="More projects"
